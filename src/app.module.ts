@@ -4,10 +4,12 @@ import { OrdersModule } from './orders/orders.module';
 import { UsersModule } from './users/users.module';
 import { CouponsModule } from './coupons/coupons.module';
 import {  ClientssModule } from './clients/clients.module';
+import { CategoriesModule } from './categories/categories.module';
+
 
 
 @Module({
-  imports: [ProductsModule, OrdersModule,UsersModule, CouponsModule, ClientssModule],
+  imports: [ProductsModule, OrdersModule,UsersModule, CouponsModule, ClientssModule, CategoriesModule],
   controllers: [],
   providers: [],
 })
